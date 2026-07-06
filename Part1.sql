@@ -1,0 +1,10 @@
+select * from customers;
+select * from products;
+SELECT customer_id, company_name from customers;
+SELECT first_name, last_name from employees;
+SELECT * from categories;
+SELECT product_name, unit_price from products;
+SELECT company_name from suppliers;
+SELECT * from orders;
+select contact_name from customers;
+Select product_id , product_name from products;
