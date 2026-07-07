@@ -1,0 +1,10 @@
+Select * from customers where country ='Germany';
+Select * from products where unit_price > 50;
+Select * from employees where city='London';
+Select * from orders where order_date> '1997-01-01';
+Select * from products where units_in_stock<'20';
+Select * from customers where city='Berlin';
+Select * from orders where ship_country='USA';
+Select * from products where unit_price between 20 and 40;
+Select * from employees where title='Sales Representative';
+Select * from customers where company_name like 'A%';
