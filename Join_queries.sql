@@ -1,0 +1,10 @@
+SELECT o.order_id, c.contact_name FROM orders o JOIN customers c ON o.customer_id = c.customer_id;
+select p.product_name, c.category_name from products p join categories c on p.category_id=c.category_id;
+select o.order_id, e.first_name ||' '|| e.last_name as employee_name from orders o join employees e on o.employee_id = e.employee_id;
+select p.product_name, s.company_name as supplier_name from products p join suppliers s on p.supplier_id=s.supplier_id;
+select od.order_id, p.product_name,od.quantity from order_details od join products p on od.product_id=p.product_id;
+select c.contact_name, o.order_id  from customers c join orders o on c.customer_id=o.customer_id;
+select e.first_name|| ' ' || e.last_name as employee_name, o.order_id from employees e join orders o on e.employee_id=o.employee_id;
+select p.product_name, s.company_name from products p join suppliers s on p.supplier_id=s.supplier_id;
+select order_id, quantity from order_details;
+select c.category_name, p.product_name from categories c join products p on c.Category_id = p.category_id;
